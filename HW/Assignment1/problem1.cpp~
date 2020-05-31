@@ -1,0 +1,32 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+
+int insertIntoSortedArray(int myArray[], int numEntries, int newValue){
+
+     return numEntries+1;
+}
+
+
+int main(int argc, char *argv[]){
+
+     string filename = argv[1];
+     ifstream file(filename);
+
+     if(file.is_open()){
+          int nums[200];
+          string line;
+          int numLines = 0;
+
+          while(getline(file,line)){
+               nums[numLines] = stoi(line);
+
+          }
+
+
+     }
+     else{
+          cout<<"Failed to open the file"<<endl;
+     }
+}

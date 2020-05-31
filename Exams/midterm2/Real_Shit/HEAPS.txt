@@ -1,0 +1,1 @@
+Although I ran out of time to finish this function, and thus don't have an output either, my function does compile where it stands now. My only other thing to implement was then to apply a bubble sort-type algorithm to my heap and thus simply output the heap in order. Although a bit crude this function would have gotten the job done.
